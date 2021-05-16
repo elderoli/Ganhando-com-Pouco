@@ -1,0 +1,71 @@
+
+<style>
+
+header nav a {font-family: sans-serif;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 20px;
+				color: black;
+				padding-right: 20px;
+				margin: auto;
+
+}
+#pagatual{ color: blue; 
+}
+
+
+body{
+	background-color: #9c9c9c;
+}	
+body div a {font-family: sans-serif;
+	color: gray;
+	font-size: 15px;
+
+}
+header p {font-family: sans-serif;
+		color: black;
+		font-size: 15px;
+		margin: auto;
+		text-align: justify;
+
+}
+
+		}	  
+h1 { font-family: sans-serif;
+	color: black;
+}
+h2 { font-family: sans-serif;
+	color: black;	
+}
+h3 { font-family: sans-serif;
+	color: black;
+	font-size: 20px;
+	padding: 5px 30px 5px 30px;
+
+}
+#wrap{
+	width:960px;
+	margin:auto;
+	background-color:#e3e3e3; 	
+}	
+footer {
+		background-color:#808080;
+}
+a { font-family: sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	padding: 0px;
+	
+
+.link{color:red;
+	  font-size: 15px
+}
+.legenda {color:red;
+		font-size: 18px;
+}
+
+dl{
+	padding-left: 20px;
+	margin-left: 50px;
+}

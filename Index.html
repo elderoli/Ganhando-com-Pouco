@@ -1,0 +1,87 @@
+<head>
+    <title>Cardápio | Restaurante</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css" />
+
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">Hamburgueria</h1>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">Hamburguers</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <img class="shop-item-image" src="images/hamburguer.jpg"><br />
+                <span class="shop-item-title">X-Burguer</span>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$15.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">+</button>
+                </div>
+            </div>
+        </div>
+    </section><br />
+    <section class="container content-section">
+        <h2 class="section-header">Pizzas</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <img class="shop-item-image" src="images/pizza.jpg"><br />
+                <span class="shop-item-title">Pizza Calabresa</span>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">+</button>
+                </div>
+            </div>
+        </div>
+    </section><br />
+    <section class="container content-section">
+        <h2 class="section-header">Bebidas</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <img class="shop-item-image" src="images/Refrigerante.png"><br />
+                <span class="shop-item-title">Antartica guaraná - Lata</span>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">+</button>
+                </div>
+            </div>
+        </div>
+    </section><br />
+    <section class="container content-section">
+        <h2 class="section-header">Cesta</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Itens</span>
+            <span class="cart-price cart-header cart-column">Preço</span>
+            <span class="cart-quantity cart-header cart-column">Quantidade</span>
+        </div>
+        <br />
+        <br />
+        
+        <div  class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span id="precototal" class="cart-total-price">R$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" onclick="imprimirPdf('cart-row')"  type="button">Enviar</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Contato</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.instagram.com/caramelosolucoes/" target="_blank">
+                        <img src="https://image.freepik.com/vetores-gratis/logotipo-instagram_1045-436.jpg" width="25" height="25">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>

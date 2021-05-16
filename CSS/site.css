@@ -1,0 +1,135 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+    
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+  
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+    
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+/*CARACTERISCITAS DO CARDAPIO*/
+
+/* IMAGENS*/
+img {
+
+}
+.shop-item-image {
+    width: 70px;
+    height: 70px;
+}
+.cart-item-image {
+    width: 70px;
+    height: 70px;
+}
+
+/*BOTÕES*/
+button{
+}
+.shop-item-button {
+    background-color: #1f7223;
+    border-radius: 8px;
+    border-color: #1f7223;
+    object-fit: cover;
+    font-size:18px;
+    font-weight:bold;
+}
+.btn-purchase {
+    background-color: #00ff21;
+}
+.btn-purchase:hover {
+    background-color: #00ff21;
+    font-size:120%;
+}
+
+    /*TITULOS DE SESSÕES*/
+
+h2{
+}
+.section-header{
+max-height:auto;
+font-family: Papyrus;
+flood-color:brown;
+}
+
+/*ROTULO PRODUTO*/
+
+span{
+
+}
+
+.shop-item-title{
+    object-fit:cover;
+}
+.shop-item-price {
+    object-fit: cover;
+}
+
+/*PLANO DE FUNDO*/
+section {
+    background-color: #b1b3b5;
+    background-repeat: no-repeat;
+    width: 500px ;
+}
+
+/*DIMENSIONAMENTO*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+}
